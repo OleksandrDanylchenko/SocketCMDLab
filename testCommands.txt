@@ -1,0 +1,9 @@
+who
+dir
+cd
+ipconfig
+echo Alex
+echo Oscar
+Lol
+ErrorMess
+end

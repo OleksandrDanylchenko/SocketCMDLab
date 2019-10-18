@@ -1,0 +1,72 @@
+1 command:
+Client is sending: "who"
+Friday, October 18, 2019 10:33:10 AM
+
+2 command:
+Client is receiving: "Server in work"
+Friday, October 18, 2019 10:33:10 AM
+
+3 command:
+Client is sending: "dir"
+Friday, October 18, 2019 10:33:10 AM
+
+4 command:
+Client is receiving: "Server in work"
+Friday, October 18, 2019 10:33:10 AM
+
+5 command:
+Client is sending: "cd"
+Friday, October 18, 2019 10:33:10 AM
+
+6 command:
+Client is receiving: "Server in work"
+Friday, October 18, 2019 10:33:10 AM
+
+7 command:
+Client is sending: "ipconfig"
+Friday, October 18, 2019 10:33:10 AM
+
+8 command:
+Client is receiving: "Server in work"
+Friday, October 18, 2019 10:33:10 AM
+
+9 command:
+Client is sending: "echo Alex"
+Friday, October 18, 2019 10:33:10 AM
+
+10 command:
+Client is receiving: "Server in work"
+Friday, October 18, 2019 10:33:10 AM
+
+11 command:
+Client is sending: "echo Oscar"
+Friday, October 18, 2019 10:33:10 AM
+
+12 command:
+Client is receiving: "Server in work"
+Friday, October 18, 2019 10:33:11 AM
+
+13 command:
+Client is sending: "Lol"
+Friday, October 18, 2019 10:33:11 AM
+
+14 command:
+Client is receiving: "Command: "Lol" made an error!"
+Friday, October 18, 2019 10:33:11 AM
+
+15 command:
+Client is sending: "ErrorMess"
+Friday, October 18, 2019 10:33:11 AM
+
+16 command:
+Client is receiving: "Command: "ErrorMess" made an error!"
+Friday, October 18, 2019 10:33:11 AM
+
+17 command:
+Client is sending: "end"
+Friday, October 18, 2019 10:33:11 AM
+
+18 command:
+Client is receiving: "All commands executed!"
+Friday, October 18, 2019 10:33:11 AM
+
