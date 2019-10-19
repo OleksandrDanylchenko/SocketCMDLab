@@ -60,7 +60,6 @@ namespace SocketServer
 
         public static void ExecuteAllCommands()
         {
-            IsAllCommandsExecuted = true;
             for (int i = 0; i < commandsLs.Count; ++i)
             {
                 Console.WriteLine($"\nCommand \"{commandsLs[i]}\" returned:");
@@ -68,6 +67,7 @@ namespace SocketServer
                 Console.WriteLine(result);
                 Console.WriteLine();
             }
+            IsAllCommandsExecuted = true;
         }
 
         private static bool IsAvailableOperation(string command)
