@@ -10,8 +10,8 @@ namespace SocketClient
         {
             try
             {
-                FileParser parcer = new FileParser(args);
-                List<FormatMessage> messagesLs = parcer.MessagesLs;
+                FileParser parser = new FileParser(args);
+                List<FormatMessage> messagesLs = parser.MessagesLs;
 
                 foreach (FormatMessage fm in messagesLs)
                 {
