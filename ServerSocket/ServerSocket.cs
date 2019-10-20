@@ -13,7 +13,7 @@ namespace SocketServer
 
         private static readonly Logger logger = new Logger(@"D:\Studying\2_Course\AOC\SocketLab\serverLog.txt");
 
-
+        // state of server controls
         public static bool IsAllCommandsExecuted = false;
         protected static string ErrorCMDReply = string.Empty; // can be generated in CmdExecuter
 
