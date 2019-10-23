@@ -14,7 +14,7 @@ namespace Message
         {
             if (cmd.Length >= 256)
             {
-                throw new ArgumentException("Length of input command bigger than 256");
+                throw new ArgumentException("Length of input command bigger than 256 bytes");
             }
             else if (cmd.Length == 0)
             {
