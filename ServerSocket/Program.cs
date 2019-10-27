@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SocketServer
 {
@@ -10,7 +10,7 @@ namespace SocketServer
             {
                 while (true)
                 {
-                    ServerSocket.ReceiveMessage();
+                    ServerSocket.ReceiveExecuteMessage();
                     ServerSocket.SendMessage();
 
                     if (ServerSocket.IsAllCommandsExecuted)
