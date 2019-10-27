@@ -1,4 +1,4 @@
-﻿using Logging;
+using Logging;
 using Message;
 using System.Net;
 using System.Net.Sockets;
@@ -13,7 +13,7 @@ namespace SocketServer
 
         private static readonly Logger logger = new Logger(@"D:\Studying\2_Course\AOC\SocketLab\serverLog.txt");
 
-        // state of server controls
+
         public static bool IsAllCommandsExecuted = false;
         protected static string ErrorCMDReply = string.Empty; // can be generated in CmdExecuter
 
@@ -33,7 +33,7 @@ namespace SocketServer
             return listener;
         }
 
-        public static void ReceiveMessage()
+        public static void ReceiveExecuteMessage()
         {
             // waiting for input connection
             handler = serverSocket.Accept();
