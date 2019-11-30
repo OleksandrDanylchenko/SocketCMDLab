@@ -14,7 +14,7 @@ namespace SocketServer
 
             if (headerLen != command.Length)
             {
-                throw new ArgumentException("Header length doesn't math command length!");
+                throw new ArgumentException("Header length doesn't match command length!");
             }
             else if (command.Equals("Who", StringComparison.CurrentCultureIgnoreCase))
             {
